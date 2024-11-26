@@ -5,9 +5,11 @@ name = "pypi"
 
 [packages]
 spacy = "*"
+pytest = "*"
+pandas = "*"
+scikit-learn = "*"
 
 [dev-packages]
-pytest = "*"
 
 [requires]
 python_version = "3.12"

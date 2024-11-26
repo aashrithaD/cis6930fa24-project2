@@ -169,7 +169,7 @@ Columns: id (int) and name (str).
 
 Assumptions:
 
-1. 1ach redaction corresponds to a single person’s name, whether it is a first name, last name, or full name.
+1. Each redaction corresponds to a single person’s name, whether it is a first name, last name, or full name.
 2. The text before and after the redaction provides sufficient context for inference.
 3. The redaction symbols (█) accurately reflect the length and position of the hidden name.
 4. The SpaCy en_core_web_sm model is considered sufficient for identifying person entities in movie review texts.

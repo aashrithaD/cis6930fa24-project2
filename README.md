@@ -59,6 +59,13 @@ submissions.tsv:
 1 Frankie Muniz    
 2 Mr. Jon Keeyes    
 
+## Video 
+
+https://github.com/user-attachments/assets/6a74bce7-b2d7-4ff7-86b1-29994d36db22
+
+
+
+
 ## Functions
 
 #### main.py
@@ -177,6 +184,7 @@ Assumptions:
 6. The test.tsv dataset is assumed to be well-structured and consistent with the expected schema.
 7. The Random Forest classifier is assumed to be a suitable machine learning model for this task based on the extracted features.
 8. The names to be predicted are assumed to exist in the training dataset; the model does not need to infer entirely unseen names.
+9. Cleaning the file ensures consistent formatting, removes invalid data, and prepares the dataset for reliable processing and model training.
 
 Bugs:
 
